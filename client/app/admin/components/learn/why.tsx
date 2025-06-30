@@ -62,20 +62,7 @@ export function WhatIsGreenZone() {
         </div>
 
         {/* Video Placeholder */}
-        <Card className="max-w-2xl mx-auto">
-          <CardContent className="p-6">
-            <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center mb-4">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Zap className="h-8 w-8 text-white" />
-                </div>
-                <p className="text-gray-600 font-medium">60-Second Explainer Video</p>
-                <p className="text-sm text-gray-500">Coming Soon</p>
-              </div>
-            </div>
-            <h3 className="text-lg font-semibold text-center">Watch: How GreenZone Audit Works</h3>
-          </CardContent>
-        </Card>
+       
       </div>
     </section>
   )

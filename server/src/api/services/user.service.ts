@@ -39,6 +39,7 @@ export async function createUserService(email : string, password : string, name:
 
 export async function getUserByEmail(email: string) {
     const user = await db.select().from(users).where(eq(users.email, email)).limit(1);
+
     return user[0] || null;
 }
 
